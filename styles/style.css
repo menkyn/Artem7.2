@@ -1,0 +1,52 @@
+
+body,h1,h2,h3,h4,h5,p,a{
+    margin: 0px;
+ text-decoration: none;
+}
+
+a{
+    color:black;
+}
+.header_container{
+    width:100%;
+    margin: 5px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.header_content{
+    max-width: 1200px;
+    background-color:aquamarine;
+  display: flex;
+  flex:1;
+  
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.menu_items{
+    display:flex;
+    flex: 1;
+    justify-content: space-around;
+    
+}
+.button{
+    border:2px solid blue;
+    background-color:blue;
+    margin:5px;
+    border-radius: 5px;
+    text-decoration:none;
+    font-size:20px;
+}
+.button:link{
+    color: black;
+}
+.button:visited{
+    color: black;
+}
+.button:hover{
+    color:aquamarine;
+}
