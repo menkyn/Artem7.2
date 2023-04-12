@@ -34,19 +34,49 @@ a{
     
 }
 .button{
-    border:2px solid blue;
-    background-color:blue;
+    background-color:aquamarine;
     margin:5px;
-    border-radius: 5px;
     text-decoration:none;
     font-size:20px;
+    display: flex;
+    flex-direction:row;
+    margin:0 auto;
+
 }
 .button:link{
-    color: black;
+    color: blueviolet;
 }
 .button:visited{
-    color: black;
+    color: blueviolet;
 }
 .button:hover{
-    color:aquamarine;
+    color:rgb(50, 50, 50);
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 350px;
+  background-color:aquamarine;
+  border: 2px solid;
+padding-left:10px;
+padding-right:10px;
+  border-color: blueviolet;
+ 
+}
+
+.button1{
+margin: 5px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+background-color:blueviolet;
+border-radius: 4px;
+font-size: 30px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.button1:hover{
+    color:rgb(50, 50, 50);
 }
